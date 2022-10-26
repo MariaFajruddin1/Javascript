@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16 More Guests</title>
+</head>
+<body>
+    <script>
+         //Question no = 16
+
+         var invitations = ["Maria " , "Fajruudin " , "Bilal "];
+        console.log("Welcome to Dinner Party " + (invitations));
+        
+        
+
+        console.log( "can't make it to the party " + (invitations[2]));
+        invitations.pop(2);
+    
+
+
+       invitations.push("Talal ");
+       console.log("Welcome to Dinner Party " + (invitations));
+
+
+       console.log("People, just found a bigger table and more people will be joining us this evening");
+
+
+       invitations.unshift( "Saima ");
+       invitations.splice(3 , 0 ,"Hania ");
+       invitations.push("Rutaba ");
+
+
+       console.log("Welcome to Dinner Party " + (invitations));
+    </script>
+</body>
+</html>

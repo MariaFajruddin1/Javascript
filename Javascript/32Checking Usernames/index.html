@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Checking Username</title>
+</head>
+<body>
+    <script>
+              //Question no = 32
+
+        let  current_users = ["marry", "joe", "john", "sarah", "admin"];
+        let  new_users = ["thomas", "joe", "Willie", "sarah", "petar"];
+
+
+        let current_lower = current_users.toLocaleString();
+        let user_lower = new_users.toLocaleString()
+
+
+        for(var i = 0; i < current_users.length; i++)
+        if(new_users [i] == current_users[i]){
+            console.log(current_users[i] + " the person will need to enter a new username")
+        }
+        else {
+            console.log(new_users[i] + " the username is available")
+            console.log(current_users[i] + " the username is available")
+        }
+    </script>
+</body>
+</html>
